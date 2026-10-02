@@ -34,6 +34,8 @@ Before publication, the Foundry bundle was remediated for public release:
 3. fallback license texts were added for `antlr4-python3-runtime==4.9.3` and `Cython==3.2.8`, whose installed `.dist-info` directories did not contain obvious standalone license files;
 4. the archive, internal manifests, metadata inventory, and verification sidecar were regenerated and re-verified.
 
+A later publication review found a credential embedded in two download logs (`logs/01_source_download.time.log` and `logs/02_checkpoint_stream_extract.log`). Both were redacted; the archive, its internal manifests, the verification sidecar, and the checksums were regenerated and re-verified, and nested archives were rescanned.
+
 Package materials remain subject to their individual licenses. License and notice files are retained inside the package snapshot and indexed by `env/PACKAGE_LICENSE_INDEX.tsv`.
 
 ## Publication scope decision
